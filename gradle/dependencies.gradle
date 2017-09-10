@@ -1,0 +1,13 @@
+ext { libraries = [:] }
+
+libraries.springboot = [
+        'org.springframework.cloud:spring-cloud-starter-eureka',
+        'org.springframework.boot:spring-boot-starter-web',
+        'org.springframework.boot:spring-boot-starter-actuator'
+]
+
+libraries.tools = [
+        'com.google.guava:guava:19.0',
+        'org.projectlombok:lombok:1.16.8',
+        'org.apache.commons:commons-lang3:3.5'
+]

@@ -1,0 +1,9 @@
+management:
+  context-path: /manage
+
+endpoints:
+    enabled: false
+    info.enabled: true
+
+server:
+  port: 8080
